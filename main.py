@@ -12,7 +12,7 @@ import json
 import requests
 
 
-print('Loading your AI personal assistant - G One')
+print('Loading your AI personal assistant - Preran')
 
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
@@ -136,8 +136,8 @@ if __name__=='__main__':
 
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
-            speak("I was built by Mirthula")
-            print("I was built by Mirthula")
+            speak("I was built by Anjali")
+            print("I was built by Anjali")
 
         elif "open stackoverflow" in statement:
             webbrowser.open_new_tab("https://stackoverflow.com/login")
